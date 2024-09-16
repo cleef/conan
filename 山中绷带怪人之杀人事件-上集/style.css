@@ -304,3 +304,13 @@ body.dark {
 .dark #controls {
     background: black;
 }
+
+.scene_name{
+    font-size: 18pt;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
