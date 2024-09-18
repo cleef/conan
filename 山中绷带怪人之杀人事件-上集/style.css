@@ -314,3 +314,56 @@ body.dark {
     justify-content: center;
     align-items: center;
 }
+
+
+[class^="icon-"] {
+    position: relative;
+    padding-left: 40px;  /* 为图标留出空间 */
+    margin-bottom: 10px;
+}
+
+[class^="icon-"]::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+}
+
+
+.icon-柯南::before {
+    background-image: url('images/柯南.jpg');
+}
+
+.icon-小兰::before {
+    background-image: url('images/小兰.jpg');
+}
+
+.icon-园子::before {
+    background-image: url('images/园子.jpg');
+}
+
+.icon-绫子::before {
+    background-image: url('images/绫子.jpg');
+}
+
+.icon-角谷::before {
+    background-image: url('images/角谷.jpg');
+}
+
+.icon-太田胜::before {
+    background-image: url('images/太田胜.jpg');
+}
+
+.icon-高桥::before {
+    background-image: url('images/高桥.jpg');
+}
+
+.icon-知佳子::before {
+    background-image: url('images/知佳子.jpg');
+}
